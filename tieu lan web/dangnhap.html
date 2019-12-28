@@ -1,0 +1,112 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Cửa hàng</title>
+<link rel="stylesheet" type="text/css" href="css/dangnhap.css">
+
+</head>
+
+<body>
+	<div class="container">
+	<header> <div id="slider">
+		
+		<script>
+  var i = 0;
+  var images = [];
+  var time = 4500;
+
+  // Image list
+  images[0] = 'inmage/1-2.jpg';
+  images[1] = 'inmage/1-1.jpg';
+  images[2] = 'inmage/muabanlaptopcu_873x284_2017-11-02.jpg';
+  images[3] = 'inmage/banner_bt.png';
+
+  
+  function changeImage(){
+
+    document.slide.src = images[i];
+
+    if(i <images.length - 1){
+      i++;
+    } else {
+      i = 0;
+    }
+    setTimeout("changeImage()", time);
+  }
+
+  window.onload = changeImage;
+</script>
+	
+
+<img name="slide" width="800" height="400"></header>
+	<div clas="main">
+	<div class="top">
+			<div class="languages">
+				<div>Ngôn ngữ: </div>
+				<a href="#"><img src="inmage/en.gif" alt"EN"/></a>
+				<a href="#"><img src="inmage/lacodosaovang.jpg" width="26" height="17"/>
+			</div>
+			<div class="search">
+				<div class="search_text"><a href="#">Tìm kiếm mà bạn muốn: </a></div>
+				<input type="text" class="search_input" name="search">
+				<input type="image" src="inmage/search.gif" class="search_bt"/>
+			</div>  
+		</div>
+		</div>
+	<nav>
+		<a href="trangchu.html"> Trang chủ </a>
+		<a href="sanpham.html"> Sản phẩm</a>
+		<a href="lien he.html"> liên hệ</a>
+		<a href="dangki.html"> Đăng kí</a>
+		<a href="dangnhap.html">Đăng nhập</a>
+		</nav>
+     
+	<div id="main">
+		<div id="left">
+			<h1><p style="text-align: center; color: red;background: #0cf;padding:28px;">Đăng nhập</p></h1>
+			<h2><center><form method="post" action=""id="form">
+				<div>
+					<label for = "name"> Họ tên :</label>
+			<input type="text"  name="name" id="name"/>
+		</div>
+		<div>
+			<label for = "pass"> Mật khẩu :</label>
+			<input type="password"  name="pass" id="pass"/>
+		</div>
+	  </tr>
+        <tr>
+    <td  clspan="2" style="text-align: center; padding-top: 18px; ">
+    <input type="submit" value="Đăng nhập" class="btn"/>
+    <input type="reset" value="Cancel" class="btn"/>
+    </td>
+    </tr>
+		</form></center></h2>
+				
+				
+				
+				
+		</div>
+		
+	<div id="footer">
+		<div class="footer">
+            	<div class="left_footer">
+            		<img src="inmage/footer_logo.png" alt="Image footer" 52px 52px/>
+            	</div>
+                
+                <div class="center_footer"> 
+                    <a href="#"><img src="inmage/csscreme.jpg" alt="Image template" /></a>
+                    <img src="inmage/payment.png" alt="Payment" />
+            	</div>
+                
+                <div class="right_footer">
+            		<h3><a href="trangchu.html">Trang chủ</a>
+                    <a href="sanpham.html">Sản phẩm</a>
+                    <a href="lien he.html">Liên hệ</a>
+                    <a href="dangki.html">Đăng ký</a>
+					<a href="dangnhap.html">Đăng nhập</a></h3>
+            	</div>
+            </div>
+	</div>
+</body>
+</html>

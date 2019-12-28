@@ -1,0 +1,137 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Cửa hàng</title>
+<link rel="stylesheet" type="text/css" href="css/trangchu.css">
+
+</head>
+
+<body>
+	<div class="container">
+	<header><div id="slider">
+		
+		<script>
+  var i = 0;
+  var images = [];
+  var time = 4500;
+
+  // Image list
+  images[0] = 'inmage/1-2.jpg';
+  images[1] = 'inmage/1-1.jpg';
+  images[2] = 'inmage/muabanlaptopcu_873x284_2017-11-02.jpg';
+  images[3] = 'inmage/banner_bt.png';
+
+  
+  function changeImage(){
+
+    document.slide.src = images[i];
+
+    if(i <images.length - 1){
+      i++;
+    } else {
+      i = 0;
+    }
+    setTimeout("changeImage()", time);
+  }
+
+  window.onload = changeImage;
+</script>
+	
+
+<img name="slide" width="800" height="400"></header>
+	<div clas="main">
+	<div class="top">
+			<div class="languages">
+				<div>Ngôn ngữ: </div>
+				<a href="#"><img src="inmage/en.gif" alt"EN"/></a>
+				<a href="#"><img src="inmage/lacodosaovang.jpg" width="26" height="17"/>
+			</div>
+			<div class="search">
+				<div class="search_text"><a href="#">Tìm kiếm mà bạn muốn: </a></div>
+				<input type="text" class="search_input" name="search">
+				<input type="image" src="inmage/search.gif" class="search_bt"/>
+			</div>  
+		</div>
+		</div>
+	<nav>
+		<a href="trangchu.html"> Trang chủ </a>
+		<a href="sanpham.html"> Sản phẩm</a>
+		<a href="lien he.html"> liên hệ</a>
+		<a href="dangki.html"> Đăng ký </a>
+		<a href="dangnhap.html">Đăng nhập</a>
+		</nav>
+     
+	<div id="main">
+		<div id="left">
+			<ul>
+				 <li>
+				<img src="inmage/csm_mbp16_4_3_e0aa4e224e.png" width="95" height="65" />
+				<h3><a href="chi tiet.html">So với chiếc Mi Notebook Pro 15.6 inch từng được giới thiệu vào đầu năm nay, phiên bản này đi kèm với nhiều cải tiến nhỏ, chủ yếu là nâng cấp về chipset, RAM và màn hình.</a>
+					</li>
+				<li>
+				<img src="inmage/images (1).jpg" alt="" width="95" height="95"/>
+				<h3><a href="chi tiet 2.html">Laptop TUF GAMING i7 8250U mỏng nhẹ. Trả góp 0%. Lỗi 1 đổi 1 trong 1 tháng. Bảo hành chính hãng 12 tháng,cấu hình đúng nghĩa vô địch trong phân khúc giá rẻ.</a></h3>
+				
+				</li>
+				<li>
+				<img src="inmage/tải xuống.jpg" alt="" width="115" height="95"/>
+				<h3><a href="chi tiet 3.html">Laptop MSI Prestige PS42 i5 8250U mỏng nhẹ. Trả góp 0%. Lỗi 1 đổi 1 trong 1 tháng. Bảo hành chính hãng 12 tháng,cấu hình đúng nghĩa vô địch trong phân khúc giá rẻ.</a></h3>
+				</li>
+				<li>
+				<img src="inmage/24973_laptop_acer_predator_21x_1.png" alt="" width="95" height="65"/>
+				<h3><a href="chi tiet 4.html">Acer Predator 21X được xem là máy tính xách tay mạnh nhất thế giới. Chỉ 300 chiếc được bán ra toàn cầu, giá bán đề nghị tại Việt Nam là 230 triệu đồng.</a></h3>
+				
+				</li>
+				<li>
+				<img src="inmage/images (3).jpg" alt=""width="95" height="95"/>
+				<h3><a href="chi tiet 5.html">Máy tính xách tay Xiaomi Mi Notebook Pro 15,6 inch với thiết kế gọn gàng không kém phần vững chắc, cấu hình manh tôi với chip xử lý Intel Core i5 thế hệ thứ 8, Ram 8Gb và SSD 256GB PCIe. Phiên bản nâng cấp CARD GTX 1050.</a></h3>
+				
+				</li>
+				<li>
+				<img src="inmage/20230048341_laptop-gaming-asus-rog-strix-scar-ii-gl504gm-es044t_600.jpeg" alt=""  width="108" height="95"/>
+				<h3><a href="chi tiet 6.html">Laptop Asus GL552VX-DM070D Gaming thực sự rất mạnh với cái giá dưới 18 triệu đồng của mình, cấu hình đúng nghĩa vô địch trong phân khúc giá rẻ.</a></h3>
+				
+				</li>
+				<li>
+				<img src="inmage/636412367948736755_Asus-GL552VX-DM143D-2.jpg" alt="" width="120" height="95"/>
+				<h3><a href="chi tiet 7.html">ASUS S13 là chiếc laptop hoàn hảo cho những youtuber thích di du lịch hay những người có gu thời trang, phong cách đơn giản tinh tế.</a></h3>
+				
+				</li>
+			</ul>
+			</div>
+		<div id="right">
+			<div class="menu_right">
+			<h3>Danh mục sản phẩm</h3>
+			<ul>
+				<li><a href="sanpham.html">sản phẩm mới nhất</a></li>
+				<li><a href="san pham ban chay.html">sản phẩm bán chạy</a></li>
+				<li><a href="san pham van phong.html">sản phẩm văn phòng</a></li>
+				<li><a href="san pham sinh vien.html">sản phẩm sinh viên</a></li>
+				<li><a href="san pham gia re.html">sản phẩm giá rẻ </a></li>
+			</ul>
+		</div>
+	</div>
+	</div>
+	<div id="footer">
+		<div class="footer">
+            	<div class="left_footer">
+            		<img src="inmage/footer_logo.png" alt="Image footer" 52px 52px/>
+            	</div>
+                
+                <div class="center_footer"> 
+                    <a href="#"><img src="inmage/csscreme.jpg" alt="Image template" /></a>
+                    <img src="inmage/payment.png" alt="Payment" />
+            	</div>
+                
+                <div class="right_footer">
+            		<h3><a href="trangchu.html">Trang chủ</a>
+                    <a href="sanpham.html">Sản phẩm</a>
+                    <a href="lien he.html">Liên hệ</a>
+					<a href="dangki.html">Đăng ký</a>
+					<a href="dangki.html">Đăng nhập</a></h3>
+            	</div>
+            </div>
+	</div>
+</body>
+</html>

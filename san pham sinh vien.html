@@ -1,0 +1,183 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Cửa hàng</title>
+<link rel="stylesheet" type="text/css" href="css/sanpham.css">
+
+</head>
+
+<body>
+	<div class="container">
+	<header> <div id="slider">
+		
+		<script>
+  var i = 0;
+  var images = [];
+  var time = 4500;
+
+  // Image list
+  images[0] = 'inmage/1-2.jpg';
+  images[1] = 'inmage/1-1.jpg';
+  images[2] = 'inmage/muabanlaptopcu_873x284_2017-11-02.jpg';
+  images[3] = 'inmage/banner_bt.png';
+
+  
+  function changeImage(){
+
+    document.slide.src = images[i];
+
+    if(i <images.length - 1){
+      i++;
+    } else {
+      i = 0;
+    }
+    setTimeout("changeImage()", time);
+  }
+
+  window.onload = changeImage;
+</script>
+	
+
+<img name="slide" width="800" height="400"></header>
+	<div clas="main">
+	<div class="top">
+			<div class="languages">
+				<div>Ngôn ngữ: </div>
+				<a href="#"><img src="inmage/en.gif" alt"EN"/></a>
+				<a href="#"><img src="inmage/lacodosaovang.jpg" width="26" height="17"/>
+			</div>
+			<div class="search">
+				<div class="search_text"><a href="#">Tìm kiếm mà bạn muốn: </a></div>
+				<input type="text" class="search_input" name="search">
+				<input type="image" src="inmage/search.gif" class="search_bt"/>
+			</div>  
+		</div>
+		</div>
+	<nav>
+		<a href="trangchu.html"> Trang chủ </a>
+		<a href="sanpham.html">Sản phẩm</a>
+		<a href="lien he.html">Liên hệ</a>
+		<a href="dangki.html">Đăng kí</a>
+		<a href="css/dangnhap.css">Đăng nhập</a>
+	</nav>
+     
+	<div id="main">
+		<div id="left">
+		<div class="sanphammall">
+			<h2><p style="text-align: center; color: red;background: #0cf;padding:20px;">Tất cả sản phẩm sinh viên</p></h2>
+			<ul>
+				<li>
+					<a href="MSI.html"><img src="inmage/gs2.jpg" width="116" height="99"/>
+					<p> Loptop MSI</p>
+					<p style="color:#f00;">Giá SP:17.000.000 Đ<p>
+					<p style="color:#f00;text-align:center">chi tiết</p>
+					</a>
+				</li>
+				<li>
+					<a href="LG.html"><img src="inmage/Desktop-01.jpg" width="116" height="90"/>
+					<p>Laptop LG gram 17</p>
+					<p style="color:#f00;">Gia SP:39.000.000 Đ</p>
+					<p style="color:#f00;text-align:center">chi tiết</p>
+					</a>
+				</li>
+				<li>
+					<a href="acer e1.html"><img src="inmage/5-laptop-ban-chay-nhat-thang-3-tai-viet-nam-1.jpg" width="116" height="90"/>
+					<p>Acer Aspire E1</p>
+					<p style="color:#f00;">Giá SP: 7.300.000 Đ</p>
+					<p style="color:#f00;text-align:center">chi tiết</p>
+					</a>
+				</li>
+				<li>
+					<a href="HP.html"><img src="inmage/HP-15-da0033TX.jpg" width="116" height="90"/>
+					<p>Loptop HP 15-da0033TX </p>
+					<p style="color:#f00;">Giá SP:30.000 Đ</p>
+					<p style="color:#f00;text-align:center">chi tiet</p>
+					</a>
+				</li>
+				<li>
+					<a href="alenwe.html"><img src="inmage/71GEle05fpL._SL1500_.jpg" width="116" height="90"/>
+					<p>Loptop Gaming Alienware</p>
+					<p style="color:#f00;">Giá SP:13.000.000 Đ</p>
+					<p style="color:#f00;text-align:center">chi tiet</p>
+					</a>
+				</li>
+				
+				<li>
+					<a href="ASus x401a.html"><img src="inmage/5-laptop-ban-chay-nhat-thang-3-tai-viet-nam-0.jpg" width="116" height="90"/>
+					<p>Loptop Asus X401A</p>
+					<p style="color:#f00;">Giá SP:9,600.000 Đ</p>
+					<p style="color:#f00;text-align:center">chi tiet</p>
+					</a>
+				</li>
+				<li>
+					<a href="predator.html"><img src="inmage/71VmlANJMOL._SL1500_.jpg" width="106" height="90"/>
+					<p>Loptop Predator</p>
+					<p style="color:#f00;">Giá SP:20.000.000 Đ</p>
+					<p style="color:#f00;text-align:center">chi tiet</p>
+					</a>
+				</li>
+				<li>
+					<a href="asus vivobook.html"><img src="inmage/Asus-Vivobook-X509FJ-EJ125T.jpg" width="106" height="90"/>
+					<p>Loptop Asus VivobookT</p>
+					<p style="color:#f00;">Giá SP: 14.890.000 Đ</p>
+					<p style="color:#f00;text-align:center">chi tiet</p>
+					</a>
+				</li>
+				<li>
+					<a href="dell vostro.html"><img src="inmage/Dell-Vostro-3578A-1.jpg" width="106" height="90"/>
+					<p>Loptop Dell Vostro 3578A</p>
+					<p style="color:#f00;">Giá SP:15.690.000</p>
+					<p style="color:#f00;text-align:center">chi tiet</p>
+					</a>
+				</li>
+				<li>
+					<a href="dell 24D.html"><img src="inmage/p2.gif" width="106" height="90"/>
+					<p>loptop Dell 24D</p>
+					<p style="color:#f00;">Giá SP:11.500.000 Đ</p>
+					<p style="color:#f00;text-align:center">chi tiet</p>
+					</a>
+				</li>
+				
+			</ul>
+			</div>
+			</div>
+		<div id="right">
+			<div class="menu_right">
+			<h3>Danh mục sản phẩm</h3>
+			<ul>
+				<li><a href="sanpham.html">sản phẩm mới nhất</a></li>
+				<li><a href="san pham ban chay.html">sản phẩm bán chạy</a></li>
+				<li><a href="san pham van phong.html">sản phẩm văn phòng</a></li>
+				<li><a href="san pham sinh vien.html">sản phẩm sinh viên</a></li>
+				<li><a href="san pham gia re.html">sản phẩm giá rẻ </a></li>
+			</ul>
+		</div>
+	</div>
+	</div>
+		
+		
+	
+	<div id="footer">
+		<div class="footer">
+            	<div class="left_footer">
+            		<img src="inmage/footer_logo.png" alt="Image footer" 52px 52px/>
+            	</div>
+                
+                <div class="center_footer"> 
+                    <a href="#"><img src="inmage/csscreme.jpg" alt="Image template" /></a>
+                    <img src="inmage/payment.gif" alt="Payment" />
+            	</div>
+                
+                <div class="right_footer">
+            		<h3><a href="trangchu.html">Trang chủ</a>
+                    <a href="sanpham.html">Sản phẩm</a>
+                    <a href="lien he.html">Liên hệ</a>
+                    <a href="dangki.html">Đăng kí</a>
+						<a href="dangnhap.html">Đăng nhập</a></h3>
+            	</div>
+            </div>
+	</div>
+</body>
+</html>
+

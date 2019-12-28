@@ -1,0 +1,276 @@
+@charset "utf-8";
+/* CSS Document */
+body{
+	font-family: Tahoma;
+	font-size: 13px;
+	width: 1000px;
+	margin: 0px auto;
+}
+#menu_top{
+	background: #141414;
+	height: 40px;
+}
+#banner{
+	
+	height:auto;
+	width: 70%;
+}
+#main #left{
+	width: 800px;
+	
+	float: left;
+	min-height: 400px;
+}
+#main #right{
+	width: 200px;
+	
+	float: left;
+	min-height: 400px; 
+}
+
+#menu_top{
+	margin: 0px;
+	padding: 0px;
+}
+#menu_top ul{
+	padding: 0px;
+	margin: 0px;
+}
+#menu_top ul li{
+	list-style: none;
+	float: left;
+}
+#menu_top ul li a{
+	text-decoration: none;
+	display: block;
+	height: 40px;
+	line-height: 40px;
+	color: #fff;
+	padding: 0px 20px 0px 20px;
+	border-right: 1px solid #ccc;	
+}
+#menu_top ul li a .active{
+	background: #1949b5;	  
+}
+#banner img{
+	width: 1000px;
+	
+}
+
+.container{
+	max-width:1280px;
+	height:auto;
+	margin:0px auto;
+}
+header img{
+	width:100%;
+	height:230px;
+}
+nav{
+	width:100%;
+	height:30px;
+	background-color:#F90;
+	margin-bottom:5px;
+}
+nav a{
+	color:#FFF;
+	font-weight:bold;
+	font-size:20px;
+	text-decoration:none;
+	width:150px;
+	height:30px;
+	text-align:center;
+	float:left;
+	line-height:30px;
+}
+nav a:hover{
+	color:#F36;
+	background-color:#FFC;
+}
+
+
+
+body{
+	background:url("../inmage/background.jpg") center top no-repeat;
+	font-family:Arial, Helvetica, sans-serif;
+	font-size: 10.1px;
+}
+.main{
+	width: 1000px;
+	margin: 0px auto;
+}
+.top{
+	width: 1000px;
+	height: 38px;
+	background-color: black;
+}
+.languages{
+	float:right;
+	width: 150px;
+	padding-top: 8px;
+	font-size: 12px;
+}
+.languages div{
+	float: left;
+	color: #B3ADAD;
+	padding: 0 5px 0 0;
+} 
+.languages a{
+	float: left;
+	display: block;
+	padding: 0 5px;
+}
+.search{
+	width: 370px;
+	height: 32px;
+	float: right;
+	background:url("../inmage/top_search_bg.gif") no-repeat center;
+	margin-right: 20px;
+	font-size: 10.2px;
+}
+.search .search_text{
+	padding: 8px 0 0 15px;
+	float: left;
+	width: 110px;
+	color: #999999;
+}
+
+.search .search_text a{
+	color:#999999;
+	text-decoration: none;
+}
+.search .search_input{
+	width: 182px;
+	height: 18px;
+	margin-top: 5px;
+	border: 1px solid #dbdbdb;
+	float: left;
+	border-bottom-color: #ffffff;
+	border-right-color: #ffffff;
+}
+
+.search .search_bt{
+	float: left;
+	padding: 2px 0 0 15px;
+}
+
+#main{
+	margin: 10px auto;
+	width: 1000px; 
+}
+
+#main #left ul li{
+	list-style: none;
+	clear: left;
+	border-bottom: 2px solid #ccc;
+	float: left;
+	margin-bottom: 20px;
+}
+#main #left ul li img{
+	float: left;	
+	margin-right: 10px;
+	margin-bottom: 20px;
+}
+
+#main #left ul li h2{
+	font-size: 16px;
+	margin-top: 0px;
+}
+#main{
+	margin-top: 10px;
+}
+#main #right .menu_right ul {
+	margin: -15px 0px 0px 0px;
+	padding: 0px;
+	border: 1px solid #ccc;
+}
+#main #right .menu_right ul li{
+	list-style: none;
+}
+#main #right .menu_right ul li a{
+	display: block;
+	text-decoration: none;
+	line-height: 45px;
+	border-bottom: 1px solid #ccc;
+	background: url("../inmage/check.png") no-repeat 2px;
+	text-indent: 35px;
+	height: 40px;
+	font-size: 14px;
+	
+}
+#main #right .menu_right h3{
+	background: #194d58	url("../inmage/icons8-menu-26 (1).png") no-repeat 3px;
+	height: 40px;
+	margin-top:0px;
+	text-align: center;
+	font-size: 14px;
+	line-height: 40px;
+	color: #fff;
+	text-indent:32px;
+
+}
+#main #right .menu_right ul li a:hover{
+	color: orangered;
+}
+
+.footer {
+	width: 1000px;
+	height: 65px;
+	background: url("../inmage/footer_bg.gif")repeat-x top;
+}
+
+
+.left_footer {
+	float: left;
+	width: 300px;
+	padding: 5px 0 0 10px;	
+}
+
+.right_footer {
+	float: right;
+	padding: 15px 30px 0 0;
+	font-size: 12px;
+
+}
+
+.right_footer a{
+	text-decoration: none;
+	padding: 0 0 0 7px;
+	color: #666;
+}
+
+.right_footer a:hover{
+	text-decoration: underline;
+}
+
+.center_footer {
+	float: left;
+	width: 200px;
+	text-align: center;
+	color: #666666;
+	padding: 10px 0 0 60px ;
+	
+}
+.sanphammall ul{
+	width: 100%;
+	list-style: none;
+	
+}
+.sanphammall ul li{
+	width: 115px;
+	height: auto;
+	border: 1px solid #000;
+	text-align: center;
+	float: left;
+	 
+}
+
+.sanphammall ul li a{
+	text-decoration: none;
+	
+}
+
+#main #left{
+	font-size: 14px;
+}
+
